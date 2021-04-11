@@ -1,4 +1,5 @@
 FROM node:15
+RUN apt update
 RUN apt install ffmpeg
 
 WORKDIR /usr/src/app
