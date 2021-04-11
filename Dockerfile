@@ -1,5 +1,5 @@
 FROM node:15
-RUN apk add --no-cache ffmpeg
+RUN apt install ffmpeg
 
 WORKDIR /usr/src/app
 
